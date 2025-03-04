@@ -18,7 +18,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 1%;
   line-height: 40px;
   font-size: 19px;
 }
@@ -30,13 +30,16 @@ h1{
   border-radius: 5px;
   background-color: aquamarine;
   color: aliceblue;
+  text-align: center;
 }
 
 .wrapper{
  border: 2px solid white;
- padding: 2%;
+ padding: 1%;
  border-radius: 5px;
  background-color: rgb(133, 175, 254);
+ height: 70%;
+ width: 50%;
 
 }
 .form{
