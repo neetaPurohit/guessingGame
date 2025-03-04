@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: hi;
 }
 body{
   width: 100%;
@@ -33,17 +34,46 @@ h1{
 
 .wrapper{
  border: 2px solid white;
- padding: 5%;
+ padding: 2%;
  border-radius: 5px;
  background-color: rgb(133, 175, 254);
-}
 
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ padding: 10px;
+}
 form input[type="text"]{
   padding: 5px;
   outline: none;
-
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
 }
 form input[type="submit"]{
-  padding: 5px;
-  
+  padding: 10px; 
+  font-size: 16px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+form input[type="submit"]:hover {
+    background-color: #0056b3; 
+    transform: scale(1.1);
+}
+#guess{
+  font-size: 24px;
+}
+.resultParas{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
